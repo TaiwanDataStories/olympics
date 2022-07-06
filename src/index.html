@@ -1,143 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Taiwan's Olympic Medals</title>
-    <meta
-      name="title"
-      content="Taiwan's Olympic Medals | Taiwan Data Stories"
-    />
-    <meta
-      name="description"
-      content="Since its first win in 1960, Taiwan has won a total of 36 medals at the Olympic Games. Its athletes have excelled most in weightlifting and Taekwondo."
-    />
-    <meta name="author" content="Julia Janicki, Daisy Chung, Joyce Chou" />
-    <meta
-      name="keywords"
-      content="Taiwan, olympics, data, data visualization"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-SFT4P13K88"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-SFT4P13K88");
-    </script>
-  </head>
 
-  <body>
-    <div id="language">
-      <p>
-        <a href="https://taiwandatastories.com/taiwan-olympic-medals/">EN</a> /
-        <a href="https://taiwandatastories.com/zh/taiwan-olympic-medals/"
-          >中文</a
-        >
-      </p>
+<head>
+  <meta charset="utf-8" />
+  <title>Taiwan's Olympic Medals</title>
+  <meta name="title" content="Taiwan's Olympic Medals | Taiwan Data Stories" />
+  <meta name="description"
+    content="Since its first win in 1960, Taiwan has won a total of 36 medals at the Olympic Games. Its athletes have excelled most in weightlifting and Taekwondo." />
+  <meta name="author" content="Julia Janicki, Daisy Chung, Joyce Chou" />
+  <meta name="keywords" content="Taiwan, olympics, data, data visualization, olympic medals, 台灣, 數字玩" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SFT4P13K88"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-SFT4P13K88");
+  </script>
+</head>
+
+<body>
+  <div id="language">
+    <p>
+      <a href="https://taiwandatastories.com/taiwan-olympic-medals/">EN</a> /
+      <a href="https://taiwandatastories.com/zh/taiwan-olympic-medals/">中文</a>
+    </p>
+  </div>
+  <a href="http://taiwandatastories.com/" target="_blank">
+    <img id="logo" src="./img/favicon.png" /></a>
+  <div class="scroller" id="scroller">
+    <div class="scroll-graphic">
+      <div class="chart-wrapper">
+        <div id="chart1"></div>
+      </div>
     </div>
-    <a href="http://taiwandatastories.com/" target="_blank">
-      <img id="logo" src="./img/favicon.png"
-    /></a>
-    <div class="scroller" id="scroller">
-      <div class="scroll-graphic">
-        <div class="chart-wrapper">
-          <div id="chart1"></div>
+    <div class="scroll-scenes">
+      <div class="scene scene1">
+        <div class="article-wrapper scroller-text">
+          <h2 class="section_title">Taiwan's 36 Olympic medals</h2>
+          <p>
+            Since its first win in 1960, Taiwan has won a total of 36 medals
+            at the Olympic Games. Though it may not seem like a lot, it hasn't
+            always been easy for Taiwanese athletes to compete in the Olympics
+            due to pressure from the People's Republic of China. Because of
+            long-standing tension over its sovereignty, Taiwan's athletes have
+            competed under the name “Chinese Taipei” since 1984.
+          </p>
         </div>
       </div>
-      <div class="scroll-scenes">
-        <div class="scene scene1">
-          <div class="article-wrapper scroller-text">
-            <h2 class="section_title">Taiwan's 36 Olympic medals</h2>
-            <p>
-              Since its first win in 1960, Taiwan has won a total of 36 medals
-              at the Olympic Games. Though it may not seem like a lot, it hasn't
-              always been easy for Taiwanese athletes to compete in the Olympics
-              due to pressure from the People's Republic of China. Because of
-              long-standing tension over its sovereignty, Taiwan's athletes have
-              competed under the name “Chinese Taipei” since 1984.
-            </p>
-          </div>
+      <div class="scene">
+        <div class="article-wrapper scroller-text">
+          <h2 class="section_title">Medals by year</h2>
+          <p>
+            Taiwanese athletes won their first Olympic medal in 1960, a silver
+            in the men's decathlon event in Rome. It wasn't until the 2004
+            games in Athens that Taiwan won its first gold medals—one each in
+            both men's and women's Taekwondo. Bringing home a total of 12
+            medals, the recent 2020 Tokyo Olympics were Taiwan's most
+            successful games to date.
+          </p>
         </div>
-        <div class="scene">
-          <div class="article-wrapper scroller-text">
-            <h2 class="section_title">Medals by year</h2>
-            <p>
-              Taiwanese athletes won their first Olympic medal in 1960, a silver
-              in the men's decathlon event in Rome. It wasn't until the 2004
-              games in Athens that Taiwan won its first gold medals—one each in
-              both men's and women's Taekwondo. Bringing home a total of 12
-              medals, the recent 2020 Tokyo Olympics were Taiwan's most
-              successful games to date.
-            </p>
-          </div>
+      </div>
+      <div class="scene">
+        <div class="article-wrapper scroller-text">
+          <h2 class="section_title">Medals by sport</h2>
+          <p>
+            Taiwanese athletes have excelled most in weightlifting and
+            Taekwondo at the Olympics. Though badminton is a popular sport in
+            Taiwan, it has been traditionally dominated by China. In the 2020
+            Tokyo Olympics, however, Taiwanese badminton duo Lee Yang (李洋)
+            and Wang Chi-lin (王齊麟) took home Taiwan's first gold medals in
+            the sport.
+          </p>
         </div>
-        <div class="scene">
-          <div class="article-wrapper scroller-text">
-            <h2 class="section_title">Medals by sport</h2>
-            <p>
-              Taiwanese athletes have excelled most in weightlifting and
-              Taekwondo at the Olympics. Though badminton is a popular sport in
-              Taiwan, it has been traditionally dominated by China. In the 2020
-              Tokyo Olympics, however, Taiwanese badminton duo Lee Yang (李洋)
-              and Wang Chi-lin (王齊麟) took home Taiwan's first gold medals in
-              the sport.
-            </p>
-          </div>
-        </div>
-        <div class="scene">
-          <div class="article-wrapper scroller-text">
-            <h2 class="section_title">Medals by gender</h2>
-            <p>
-              Overall, Taiwanese women have won more Olympic medals than men.
-              This includes the recent victory of the Badminton World
-              Federation's number one female badminton athlete Tai Tzu-ying
-              (戴資穎), who earned a silver medal at the 2020 Tokyo Olympics in
-              the women's singles competition.
-            </p>
-          </div>
+      </div>
+      <div class="scene">
+        <div class="article-wrapper scroller-text">
+          <h2 class="section_title">Medals by gender</h2>
+          <p>
+            Overall, Taiwanese women have won more Olympic medals than men.
+            This includes the recent victory of the Badminton World
+            Federation's number one female badminton athlete Tai Tzu-ying
+            (戴資穎), who earned a silver medal at the 2020 Tokyo Olympics in
+            the women's singles competition.
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer>
-      <p>
-        <b>Credit:</b> <span class="title">Data / Viz / Dev / Text:</span> Julia
-        Janicki <span class="title">Design / Text:</span> Daisy Chung
-        <span class="title">Editing:</span> Joyce Chou
-        <br />
-        <b>Data Source:</b>
-        <a
-          href="https://en.wikipedia.org/wiki/Chinese_Taipei_at_the_Olympics"
-          target="_blank"
-          >Wikipedia: Chinese Taipei at the Olympics</a
-        >
-        (Primary source
-        <a
-          href="https://www.nstc.org.tw/Page.aspx?ID=3570c7e7-df37-42a7-ba00-32a2b3b7fb2d"
-          target="_blank"
-        >
-          here</a
-        >)
-        <br />
-        This is part of 2022
-        <a href="https://twitter.com/30DayChartChall" target="_blank"
-          >#30DayCharChallenge</a
-        >
-        <span class="title">Comparisons: part-to-whole</span>
-      </p>
-    </footer>
-    <script src="./js/init.js"></script>
-  </body>
+  <footer>
+    <p>
+      <b>Credit:</b> <span class="title">Data / Viz / Dev / Text:</span> Julia
+      Janicki <span class="title">Design / Text:</span> Daisy Chung
+      <span class="title">Editing:</span> Joyce Chou
+      <br />
+      <b>Data Source:</b>
+      <a href="https://en.wikipedia.org/wiki/Chinese_Taipei_at_the_Olympics" target="_blank">Wikipedia: Chinese Taipei
+        at the Olympics</a>
+      (Primary source
+      <a href="https://www.nstc.org.tw/Page.aspx?ID=3570c7e7-df37-42a7-ba00-32a2b3b7fb2d" target="_blank">
+        here</a>)
+      <br />
+      This is part of 2022
+      <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayCharChallenge</a>
+      <span class="title">Comparisons: part-to-whole</span>
+    </p>
+  </footer>
+  <script src="./js/init.js"></script>
+</body>
+
 </html>
